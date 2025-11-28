@@ -1,9 +1,11 @@
 import TimerApp from "../hooks/useRef/Timer";
+import Counter from "../hooks/useState/Counter";
 
 const App = () => {
   return (
     <div>
-      <TimerApp />
+      <Counter />
+      {/* <TimerApp /> */}
     </div>
   );
 };
